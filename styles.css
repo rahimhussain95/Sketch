@@ -1,0 +1,33 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+} 
+
+body {
+    background-color: rgb(174, 172, 172);
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.options button {
+    background-color: beige;
+    border-radius: 5px;
+}
